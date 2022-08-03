@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: var(--main-bg-color);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    justify-content: space-evenly;
+}
+
+.navcontainer {
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(116, 116, 231);
+    border-radius: 20px 0 0 20px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    margin: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 17px;
+    position: relative;
+}
+
+nav ul li a :before {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 0;
+    border-top: 2px solid white;
+    transition: all 0.4 linear;
+}
+
+nav a :hover:before {
+    width: 100%;
+}
+
+.Search {
+    display: flex;
+    align-items: center;
+    background-color: rgb(116, 116, 231);
+}
+
+.search input {
+    width: 300px;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+}
+
+.search button {
+    font-weight: 900;
+}
+
+.btn {
+    padding: 5px 10px;
+    color: white;
+    background: rgb(92, 103, 222);
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.Searchinput {
+    width: 300px;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+}
+
+.menucontainer {
+    display: flex;
+}
+
+.bodycontainer {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.left {
+    padding: 50px;
+    width: 50%;
+    height: 100%;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+
+.footercontainer {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.left {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+
+}
+
+.left h2 h3 {
+    color: black;
+}
+
+.left h1 {
+    color: rgb(118, 118, 237);
+
+    font-size: 70px;
+
+}
+
+.left h2 {
+
+    font-size: 50px;
+
+}
+
+.left h3 {
+    font-size: 35px;
+
+}
+
+.btn1 {
+    width: 150px;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 14px;
+    text-align: center;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 30px 30px 30px 30px;
+    display: inline-block;
+    margin-right: 50px;
+    color: white;
+    background-image: linear-gradient(to right, rgb(118, 118, 241) 0%, #8a5aea);
+    border: double 2px transparent;
+    box-shadow: 0 10px 30px;
+    border-color: rgb(119, 119, 217);
+}
+
+.btn2 {
+    width: 150px;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 14px;
+    text-align: center;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 30px 30px 30px 30px;
+    display: inline-block;
+    margin-right: 50px;
+    color: rgb(120, 115, 115);
+    background-image: linear-gradient(to right, white 0%, white);
+    border: 2px solid rgb(121, 121, 207);
+    box-shadow: 0 10px 30px;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+}
+
+.right img {
+    max-width: 300px;
+    height: auto;
+}
+
+.btncontainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.leftfooter {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+
+}
+
+.rightfooter {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    font-size: 45px;
+    align-items: center;
+}
+
+.itemclass {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 0 10px;
+    border: 1px solid rgb(120, 120, 222);
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+}
+.msgclass{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-color: #8a5aea;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+.active{
+    
+}
